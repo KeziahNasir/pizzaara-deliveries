@@ -1,64 +1,13 @@
-font-family: "Kanit", sans-serif;
 @import url(sections/header.css);
-.hero-container{
-  background-color:#F4F7FB;
+@import url("sections/menu.css");
+body {
+  font-family: "kanit", sans-serif;
+}
+.hero-container {
+  background-color: #f4f7fb;
 }
 .container {
   width: 90%;
   margin: 0 auto;
 }
-.header_nav_container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
 
-}
-.header_nav_center ul {
-  list-style-type: none;
-  display: flex;
-}
-.header_nav_center ul li {
-  padding: 0 2em;
-}
-.header-list {
-  background-color: #eea539;
-  color: #fff;
-}
-.healthy{
-  color: #eea539;
-}
-.fresh{
-  color: #eea539;
-}
-.hero-icon{
-  border: solid lightgrey 1px;
-  width:35%;
-  display: flex;
-align-items: center;
-padding: 0.6em 0;
-}
-.search-input{
-  padding:2em 6em;
-  border:none;
-  outline:none;
-}
-.fa-solid{
-  font-size: 1.8rem;
-  margin-left: 1em;
-}
-.search-container{
-  display:flex;
-  align-items: center;
-  padding: 1.9em 0;
-  border: none;
-}
-.search-button{
-  padding: 2.59em;
-  background-color:black;
-  color: #F4F7FB;
-}
-.hero-image{
-  
-}

@@ -1,0 +1,70 @@
+.category {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.category h2 {
+  border-bottom: 3px solid gray;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+.category h2:hover {
+  color: #eea539;
+  padding-bottom: 0.7rem;
+  border-bottom: 8px solid #eea539;
+}
+.btn-button button {
+  display: flex;
+  background-color: #eea539;
+  padding: 1em 4em;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.menu-content {
+  border-radius: 3px solid lightgrey;
+}
+.varieties-image {
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container p {
+  margin: 4em;
+}
+
+.content-left {
+  margin: 0 auto;
+  margin-inline-start: 10%;
+}
+.contact-container h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 4em;
+}
+.enquire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

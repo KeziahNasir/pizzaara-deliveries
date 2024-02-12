@@ -1,17 +1,23 @@
 h1 {
   font-size: 60px;
 }
+.header_nav{
+  background-color: #f4f7fb;
+  padding: 2em 0;
+  margin-bottom: 2em;
+}
 .header_nav_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: 0 auto;
 }
 .header_nav_center ul {
   list-style-type: none;
   display: flex;
-  font-size: 30px;
+}
+.header_nav_center ul li a{
+  text-decoration: none;
+  color: black;
 }
 .header_nav_center ul li:hover {
   color: #fff;
@@ -19,7 +25,16 @@ h1 {
   cursor: pointer;
 }
 .header_nav_center ul li {
-  padding: 0 2em;
+  padding: 1em 2em;
+  font-size: 1.2rem;
+}
+.header_nav_right{
+  display: flex;
+  gap: 2em;
+}
+.header__nav__icon{
+  display: none;
+  background-color: red;
 }
 .healthy {
   color: #eea539;

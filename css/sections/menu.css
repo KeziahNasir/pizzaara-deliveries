@@ -69,26 +69,9 @@ background-color:#f4f4f4
   justify-content: center;
   align-items: center;
 }
-.footer-container {
-  background-color: black;
-  display: flex;
-color: #fff;
-justify-content: space-around;
-margin-top:5em;
-padding:1em 0;
-height:40vh;
-}
-.footer-subscribe{
-  padding:3rem 0;
-  display: flex;
-}
-.btn-subscribe{
-  background-color: #eea539;
-  border-bottom-right-radius:0.5em;
-  border-top-right-radius:0.5em;
-  padding:2em;
-  border:none;
-}
+
+
+
 .contact-images{
 display: flex;
 justify-content: space-around;
@@ -96,11 +79,17 @@ justify-content: space-around;
 .enquire{
   background-color: #f4f4f4;
 }
-  .footer-add{
-  display:flex;
-}
+ 
 .about-us{
   display :flex;
   
   margin:10px;
+  background-color: crimson;
+}
+.testimonials{
+  background-color: burlywood;
+  padding: 2em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
